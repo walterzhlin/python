@@ -2,7 +2,7 @@
 Topic:請使用input and print打造對話機器人
 
 e.g.
-old = input("How old are you?")
+old = input(How old are you?)
 print("I am " + old)
 
 1.Show:How old are you?
