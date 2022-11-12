@@ -10,6 +10,7 @@ time.sleep(1) # 延遲1秒
 import turtle
 import time
 
+turtle.tracer(1, 0)
 turtle.shape('triangle')
 turtle.speed(0)
 for i in range(0, 360, 6):
