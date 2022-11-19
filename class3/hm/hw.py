@@ -10,3 +10,13 @@ EX:
 請輸入華氏溫度:ABC
 輸入錯誤!
 """
+# a = input('請輸入華氏溫度:')
+# b = a * 9 / 5 + 32
+# print(b)
+try:
+    a = int(input('請輸入華氏溫度:'))
+except:
+    print('發生錯誤')
+else:
+    b = a * 9 / 5 + 32
+    print(b)
